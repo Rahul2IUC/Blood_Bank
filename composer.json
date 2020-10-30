@@ -1,0 +1,6 @@
+{
+    "name": "management/system",
+    "description": "food  ordering system",
+    "type": "composer-plugin",
+    "require": {}
+}
