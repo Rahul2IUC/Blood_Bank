@@ -3,7 +3,7 @@
     <div class="w-100">
         <?php view('_partials.navbar'); ?>
     </div>
-    <div class="col-md-7 mx-auto">
+    <div class="col-md-7 mx-auto h-100">
         <div class="d-flex justify-content-between py-5">
             <h4>
                 Blood Sample Request
