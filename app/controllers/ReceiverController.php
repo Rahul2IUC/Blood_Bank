@@ -12,7 +12,7 @@ class ReceiverController extends Controller
     public function showDashboard()
     {
         $receiver_id = $_SESSION['Auth'];
-        $query = "select * from samplerequests as s, hospital as h, receiver as r where r.id = s.receiver_id and h.id = s.hospital_id and r.id=".$receiver_id.";";
+        $query = "select h.name,s.blood_group,s.blood_unit from samplerequests as s, hospital as h, receiver as r where r.id = s.receiver_id and h.id = s.hospital_id and r.id=".$receiver_id.";";
 
         $requests = mysqli_query($this->db, $query);
         if(!$requests) echo "unable to retrieve request".mysqli_error($this->db);
