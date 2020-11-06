@@ -1,6 +1,6 @@
 {
     "name": "management/system",
-    "description": "food  ordering system",
+    "description": "Blood Bank",
     "type": "composer-plugin",
     "require": {}
 }
